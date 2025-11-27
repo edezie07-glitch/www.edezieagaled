@@ -1,0 +1,199 @@
+body{
+ 
+    background-color: rgb(27, 27, 27);
+    background: linear-gradient(to left, #073b3f,#422809) ;
+    
+}    
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+    margin-top: 70px;
+    margin-right: 200px;
+
+}
+
+
+h3{
+  
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+h6{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align:left ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation: flash 2s infinite;   
+
+}
+
+.p1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    margin: 5px 1px;
+    
+}
+
+.button1{
+    color: rgb(13, 0, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px ;
+    border-color: rgb(255, 37, 37);
+    text-align: center;
+    align-self: center;
+}
+@keyframes borderFlash {
+  100% { border-color:  rgb(5, 84, 95); }
+  100% { border-color: transparent; }
+  10% { border-color: rgb(5, 84, 95); }
+}
+
+.button2{
+    background-color: #ff9d0000;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 25px;
+    animation: borderFlash 1s infinite;
+    font-size: 25px;
+   
+    align-self: center;
+ 
+}    
+.class3{
+    color: rgb(8, 0, 255);
+}
+
+
+.div1{
+    margin: 15px;
+    padding: 10px;
+    border: px solid rgb(183, 0, 0);
+    background-color: rgb(255, 136, 0, 0.47);
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    border-radius: 15px;
+}
+.div2{
+    margin: 15px;
+    padding: 10px 10px;
+    border: px solid rgb(183, 0, 0);
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    font-size: 20px;
+   
+    font-style: initial;
+    border-radius: 15px;
+    border-right: 20px;
+    margin-top: 10px;
+     background: linear-gradient(to right, #ff8800, #073b3f );
+    
+}
+
+
+.div3{
+    
+    
+    border: px solid rgb(52, 52, 52);
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(240, 0, 0);
+    border-radius: 15px;
+   
+   
+    margin: 0px;
+    margin-right:20px;
+    margin-left: 10px;
+    background: linear-gradient(to bottom,#ff8800, #073b3f) ;
+  
+    
+  width: 350px;
+  height: 320px;
+
+}
+.p3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+hr{
+    border: 2px solid;
+    color: rgb(255, 136, 0);
+    margin: 5px 1px;
+     
+
+}
+
+h5{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 38px;
+}
+.p4{
+    color: #ffffff;
+    margin-top:  90 px;
+}
+.my-image1{
+    border:3.5px solid, #044212;
+    margin-top: 5px;
+}
+.img2{
+    border:3px solid, #2204ff;
+    margin-top: 5px;
+}
+.img3{
+    border:3px solid, #dbb369;
+    margin-top: 5px;
+    
+}
+.button3{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 435px;
+   font-size: 20px;
+   margin-right: 10px;
+
+}
+.button4{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 110px;
+   margin-bottom: 0px;
+   font-size: 20px;
+   margin-right: 500px;
+   
+}

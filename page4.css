@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(54, 54, 54);
+    background: linear-gradient(to left, #073b3f,#422809) ;
+}
+.div1{
+    background-color: rgb(255, 136, 0, 0.47);
+    padding: 15px 15px;
+    font-size: 45px;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+}   
+
+
+
+hr{
+    color:rgb(255, 136, 0);
+    margin: 5px 1px;
+    border: 2px solid;
+    margin-top: 15px;
+}
+@keyframes borderFlash {
+  100% { border-color: rgb(5, 84, 95); }
+  100% { border-color: transparent; }
+  10% { border-color: rgb(5, 84, 95); }
+}
+.button2{
+    background-color: #33333300;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 25px;
+    animation: borderFlash 1s infinite;
+    font-size: 25px;
+   
+    align-self: center;
+ 
+} 
+.button3{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 60px;
+   font-size: 20px;
+   margin-left: 1000px;
+   
+
+}.button4{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 60px;
+   margin-bottom: 0px;
+   font-size: 20px;
+   
+}
+.div3{
+    
+    
+    border: px solid rgb(52, 52, 52);
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+   
+   
+    margin: 0px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 100px;
+   font-style: normal;
+    
+  width: 380px;
+  height: 400px;
+  background: linear-gradient(to bottom,#ff8800, #073b3f) ;
+
+}
+
+.div4{
+    border: px solid rgb(52, 52, 52);
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+   background: linear-gradient(to bottom,#ff8800, #073b3f) ;
+   
+    margin: 0px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 50px;
+  
+    
+  width: 380px;
+  height: 400px;
+
+
+}
+.p3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.my-image1{
+    margin-top: 10px;
+    border-radius: 50px 50px;
+}
+.img2{
+    margin-top: 10px;
+    border-radius: 50px 50px;
+}
+.img3{
+      margin-top: 10px;
+      border-radius: 50px 50px;
+}
+.h3{
+    color: #0000ff;
+}

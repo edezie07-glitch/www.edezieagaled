@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to left, #073b3f,#422809) ;
+}    
+.div1{
+    margin: 15px;
+    padding: 10px;
+    border: px solid rgb(183, 0, 0);
+    background-color: rgb(255, 136, 0, 0.47);
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    border-radius: 15px;
+}
+@keyframes borderFlash {
+  100% { border-color: rgb(5, 84, 95); }
+  100% { border-color: transparent; }
+  10% { border-color: rgb(5, 84, 95); }
+}
+.button2{
+    background-color: #33333300;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 25px;
+    animation: borderFlash 1s infinite;
+    font-size: 25px;
+   
+    align-self: center;
+ 
+} 
+.div2{
+    margin-top: px;
+    height: 270px;
+    width: 950px;
+    font-style: normal;
+    border-radius: 2px;
+    background: linear-gradient(to left,#212121,#ff8800) ;
+     color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top: 340px;
+}
+.hr1{
+    color: #ff8800;
+}
+    
+
+
+   
+hr{
+    border: 2px solid;
+    color: #03484d;
+    margin: 5px 1px;
+     
+
+}
+.div3{
+    
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    margin-bottom:0px ;
+    margin-top: 70px;
+    background-color:  #03484d6f;
+}
+h1{
+    color: #ffffff;
+    font-style: 40px;
+}
+
+.div4{
+    background-color: #03484d6f;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    
+    margin-top: 28px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+ 
+   
+}
+.h2{
+    color: #ffffff;
+    text-align:left ;
+    font-style: 30px;
+    font-style: normal;
+}
+.button3{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 530px;
+   margin-left: 0px;
+   margin-right: 10px;
+   font-size: 20px;
+
+}
+.button4{
+   
+    color: #0000ff;
+    background-color: #33333300;
+   border-color: #0000ff;
+    padding: 5px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 210px;
+   margin-bottom: px;
+   margin-right: 299px;
+    font-size: 20px;
+}

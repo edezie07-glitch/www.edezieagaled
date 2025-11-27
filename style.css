@@ -1,0 +1,235 @@
+
+body{
+    background-color: rgb(27, 27, 27);
+    column-rule-color: aquamarine;
+    lighting-color: aquamarine;
+    justify-content: center;
+   
+       background: linear-gradient(to left, #073b3f,#422809) ;
+   
+     
+}
+
+
+
+
+
+  
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+
+    
+}
+
+h2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 100px;
+    animation: flash 2s infinite;   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hr{
+    border: 2px solid;
+    color: rgb(255, 136, 0);
+    margin: 5px 1px;
+     
+
+}
+
+
+
+
+
+
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+   
+}    
+a{
+   color: rgb(12, 12, 201);
+   font-size: 25px;
+    text-align: left;
+}
+
+
+
+
+@keyframes flash {
+  0% { opacity: 5; }
+  50% { opacity: 0.3; }
+  100% { opacity: 5; }
+}
+@keyframes borderFlash {
+  100% { border-color: rgb(5, 84, 95); }
+  100% { border-color: transparent; }
+  10% { border-color: rgb(5, 84, 95); }
+}
+
+.button2{
+    background-color: #ff9d0000;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 25px;
+    animation: borderFlash 1s infinite;
+    
+   
+    align-self: center;
+ 
+      
+}
+
+
+
+.my-image1{
+    margin: 0px;
+    padding: 5px;
+    border: 4px solid rgb(255, 137, 3);
+    margin-right:300px;
+    
+   
+}
+.section1{
+  
+    background-color: #ff8800;
+    width: 400px;
+    height: 70px;
+       
+    
+}
+
+.section4{
+    background-color: rgb(16, 16, 16);
+   
+    height: 200px;
+    width:900px;
+    text-align: right;
+    
+    border-radius: 2px;
+      background: linear-gradient(to right, #ff8800, #073b3f);
+}
+
+
+.div2{
+    margin: 15px;
+    padding: 13px;
+    border: px solid rgb(22, 22, 22);
+    background-color: rgba(255, 136, 0, 0.47);
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-style: initial;
+    border-radius: 15px;
+}
+
+
+.hr1{
+    color: #000;
+    width: 1600px;
+    
+    
+    
+}
+
+
+
+.stage {
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.card {
+    width: 100px;
+    height: 120px;
+    background: #ff6a00;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    display: flex;
+    gap: 20px;
+}
+
+.eye {
+    width: 35px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.pupil {
+    width: 15px;
+    height: 15px;
+    background: rgb(37, 37, 37);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: transform s linear;
+}
+
+.mouth {
+    width: 60px;
+    height: 10px;
+    background: rgb(157, 57, 3);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 25px;
+    margin-bottom: 70px;
+    align-self: right;
+    margin-left: 70px;
+    
+}
+
+
+.button5{
+ color: #0000ff;
+    background-color: #ff880000;
+   border-color: #0000ff;
+    padding: 3px 5px;
+    border-radius: 25px;
+   animation: borderFlash 1s infinite;
+   margin-top: 20px;
+   margin-left: 840px;
+   font-size: 15px;
+}
+
+.href1{
+    color: #000;
+    font-size: 20px;
+      margin-top: 20px;
+   margin-left: 15px;
+}
+
+    
